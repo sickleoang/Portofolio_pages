@@ -231,6 +231,7 @@
     </body>
 
     <script>
+        // Jam header
         function funcWaktu() {
             const waktuIni = new Date;
             let jam = waktuIni.getHours();
@@ -243,7 +244,8 @@
 
             document.getElementById('teksWaktu').innerText = formatWaktu;
         }
-
+        
+        // Jam banner
         function funcWaktuHari() {
             const waktuIni = new Date;
             let hari = waktuIni.getDay();
@@ -261,6 +263,7 @@
             document.getElementById('teksWaktuBanner').innerText = formatWaktu;
         }
 
+        // tambah
         function tambah() { // Define a function named tambah()
             let a = parseFloat(document.getElementById("angka1").value);
             // Define variable "a" with value from the number entered in input() with id angka1
@@ -269,6 +272,7 @@
             document.getElementById("hasil").innerHTML = " Hasil: " + hasil;
         }
 
+        // kurang
         function kurang() {
             let a = parseFloat(document.getElementById("angka1").value);
             let b = parseFloat(document.getElementById("angka2").value);
@@ -276,6 +280,7 @@
             document.getElementById("hasil").innerHTML = " Hasil: " + hasil;
         }
 
+        // kali
         function kali() {
             let a = parseFloat(document.getElementById("angka1").value);
             let b = parseFloat(document.getElementById("angka2").value);
@@ -283,6 +288,7 @@
             document.getElementById("hasil").innerHTML = " Hasil: " + hasil;
         }
 
+        // bagi
         function bagi() {
             let a = parseFloat(document.getElementById("angka1").value);
             let b = parseFloat(document.getElementById("angka2").value);
@@ -290,6 +296,7 @@
             document.getElementById("hasil").innerHTML = " Hasil: " + hasil;
         }
 
+        // panagkat
         function pangkat() {
             let a = parseFloat(document.getElementById("angka1").value);
             let b = parseFloat(document.getElementById("angka2").value);
@@ -310,3 +317,4 @@
 </html>
 
 <!--(...).el.em.al.pu.me.ma.vi.do.na.ku-->
+
